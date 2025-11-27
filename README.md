@@ -42,6 +42,10 @@ This is an exclusive project that highlights the processes of automating a an ap
 **Github secrets configuraiton**
 GitHub Repo → Settings → Secrets and Variables → Actions → New Repository Secret
 
+<img width="468" height="282" alt="image" src="https://github.com/user-attachments/assets/9980a5d8-10a5-4dea-bbb1-9fca8487c853" />
+
+
+
 **Dockerhub secret and configuration**
 The secret token generated in dockerhub and integrated into the new repository secret in github. In this case the image created is directly
 pushed into dockerhub from github directly.
@@ -80,10 +84,11 @@ pushed into dockerhub from github directly.
 
    **<img width="468" height="191" alt="image" src="https://github.com/user-attachments/assets/73404192-e0f7-412d-8f28-2c6e74abe71d" />**
 
+
+
 2.1 Docker image build problem has been fixed. This was done perfectly by rectifying isses with the requirements.txt after which we updated the ci.yml file.
 
   <img width="468" height="176" alt="image" src="https://github.com/user-attachments/assets/52d3eead-9715-4a03-8c57-53813ed2aab7" />
-
 
 
 **This project demonstrates:**
