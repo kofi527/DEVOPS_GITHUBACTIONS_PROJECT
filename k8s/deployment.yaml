@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flask-app-deployment
+  name: flaskapp
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: flask-app
+      app: flaskapp
   template:
     metadata:
       labels:
-        app: flask-app
+        app: flaskapp
     spec:
       containers:
-      - name: flask-app
-        image: kofi527/flask-app:latest
-        ports:
-        - containerPort: 5000
+        - name: flaskapp
+          image: kofi527/flask-app:latest
+          ports:
+            - containerPort: 8000
