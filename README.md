@@ -92,7 +92,11 @@ pushed into dockerhub from github directly.
 
   <img width="468" height="176" alt="image" src="https://github.com/user-attachments/assets/52d3eead-9715-4a03-8c57-53813ed2aab7" />
 
-2.2 
+2.2  Having issues with the build process stating unauthorized or insufficient scopes within the build process. The read and write option is very important during the create access token process. 
+
+  <img width="468" height="215" alt="image" src="https://github.com/user-attachments/assets/1ed3870e-2dc4-4088-a9af-c25c75d48d3c" />
+
+
 
 **This project demonstrates:**
 
@@ -123,6 +127,8 @@ Python Flask microservice architecture
 * GitHub Actions – CI/CD workflow
 
 * GitHub Secrets – Secure credentials
+
+
 
 
 
