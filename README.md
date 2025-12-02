@@ -35,24 +35,23 @@ This is an exclusive project that highlights the processes of automating a an ap
 * Deployment using Docker Hub image
 
 **Steps for project execution**
-* The various files and folders were created in vscode together with their required configuration
-* The files and folders were committed with the command  "git init".
-* The commited files were staged and added to the repository
+  --
+1. The various files and folders were created in vscode together with their required configuration
+2. The files and folders were committed with the command  "git init".
+3. The commited files were staged and added to the repository
 
-**Github secrets configuraiton**
+4.**Github secrets configuraiton**
+
 GitHub Repo → Settings → Secrets and Variables → Actions → New Repository Secret
 
 <img width="468" height="282" alt="image" src="https://github.com/user-attachments/assets/9980a5d8-10a5-4dea-bbb1-9fca8487c853" />
 
+5. **Dockerhub secret and configuration**
 
-
-**Dockerhub secret and configuration**
 The secret token generated in dockerhub and integrated into the new repository secret in github. In this case the image created is directly
 pushed into dockerhub from github directly.
 
-
-
-**folder structure**
+6.  **folder structure**
 
 * devops-pipeline-project/
 │── flaskapp/
@@ -70,15 +69,18 @@ pushed into dockerhub from github directly.
 
 
 
-**Docker setup commands used for the project**
-- Highlighting the repository name of the image is very important in the docker tag
-- 
-  <img width="468" height="59" alt="image" src="https://github.com/user-attachments/assets/14572f08-9047-4573-8628-e9952ac01ca5" />
+7.  **Docker setup commands used for the project**
+   
+    - Highlighting the repository name of the image is very important in the docker tag
 
-- Building the image from the current directory  - docker build -t flask-app .
-- Running the container - docker run -p 5000:5000 flask-app
+    <img width="468" height="59" alt="image" src="https://github.com/user-attachments/assets/14572f08-9047-4573-8628-e9952ac01ca5" />
 
-**Errors encountered during steps**
+    - Building the image from the current directory  - docker build -t flask-app .
+    - Running the container - docker run -p 5000:5000 flask-app
+
+**Errors encountered during Project execution**
+--
+
 1. First challenges encountered was when the dockerfile directory could not be identified in github actions.
 2. Docker build having issues with the build process
 
@@ -90,6 +92,7 @@ pushed into dockerhub from github directly.
 
   <img width="468" height="176" alt="image" src="https://github.com/user-attachments/assets/52d3eead-9715-4a03-8c57-53813ed2aab7" />
 
+2.2 
 
 **This project demonstrates:**
 
